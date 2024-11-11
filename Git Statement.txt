@@ -1,6 +1,6 @@
 cd .. 				:Trở về thư mục cha
 cd <foldername>			:Vào thư mục con
-dir /lst 			:Hiển thị tất cả file/folder đang chứa
+dir /lst 			:Hiển thị tất cả file/folder đang được chứa
 mkdir <foldername> 		:Tạo thư mục
 touch <filename>		:Tạo file
 echo <message>			:in ra màn  hình
