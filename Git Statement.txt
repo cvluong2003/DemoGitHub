@@ -1,0 +1,32 @@
+cd .. 				:Trở về thư mục cha
+cd <foldername>			:Vào thư mục con
+dir /lst 			:Hiển thị tất cả file/folder đang chứa
+mkdir <foldername> 		:Tạo thư mục
+touch <filename>		:Tạo file
+echo <message>			:in ra màn  hình
+echo <message> > <filename>	:ghi text vào file (ghi đè)
+echo <message> >> <filename>	:ghi text vào file (ghi thêm)
+cat <filename>			:Hiển thị nội dung file
+diff <filename1> <filename2> 	:So sánh nội dung 2 file
+rm <filename>			:xóa file
+rm -d <foldername> 		:xóa thư mục (rỗng)
+rm -r <foldername> 		:xóa thư mục (kèm file)
+
+git init <repositoryname>	:tạo  repo
+git status 			:Xem trạng thái repo hien tại (sự khác biệt giữa staging và working directory)
+git log				:Xem thông tin lịch sử commit
+git add <filename> 		:Thêm file từ working directoty và staging
+git add .			:Thêm tất cả file từ working directoty và staging
+git submit -m 			:Thêm file từ staging vào repo (m:message)
+git diff 			:So sánh với lần commit cuối cùng
+
+git init bare			:Tạo central repo
+git clone <Tên repo> <clone name>:Tạo 1 bản sao repo
+git merote add origin <url>	:Kết nối với remote repo
+git fetch 			:Lấy thông tin các thay đổi của remote so với local(kiểm tra trước khi megre)
+git pull 			:lấy dữ lieu từ central về local
+git push 			:Đẩy các comiit từ local lên central
+
+git branch -l 			:Xem danh sách các nhánh 
+git branch <branchname>		:Tạo 1 nhánh mới
+git checkout <branchname>	:Chuyển  hướng g sang nhánh mới
