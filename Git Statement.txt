@@ -1,6 +1,6 @@
 cd .. 				:Trở về thư mục cha
 cd <foldername>			:Vào thư mục con
-dir /lst 			:Hiển thị tất cả file/folder đang được chứa
+dir /lst 			:Hiển thị tất cả file/folder đang chứa
 mkdir <foldername> 		:Tạo thư mục
 touch <filename>		:Tạo file
 echo <message>			:in ra màn  hình
@@ -30,3 +30,10 @@ git push 			:Đẩy các comiit từ local lên central
 git branch -l 			:Xem danh sách các nhánh 
 git branch <branchname>		:Tạo 1 nhánh mới
 git checkout <branchname>	:Chuyển  hướng g sang nhánh mới
+git merge <branchname> 		:kết hợp nhánh khác vào nhánh hiện tại
+git branch -d <branchname>	:Xóa nhánh LOCAL
+git push origin -d <branchname>	:Xóa nhánh remote
+
+git reset --soft <commitID> 	:Duy chuyển HEAD về commitID và không làm thay đổi staging và working (chỉ cần commit lại 														staging ->local)
+git reset --mixed <commitID>	:Duy chuyển  HEAD về commitID và làm thay đổi staging nhưng giữ nguyên working (cần add từ 										working ->staging rồi commit từ staging -> local)
+git reset --hard <commitID>	:Duy chuyển HEAD về commitID và làm thay đổi staging và woking (không thể khôi phục)
