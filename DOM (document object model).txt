@@ -1,0 +1,13 @@
+DOM (document object model)
+
+-element (các thẻ tag) 				:ID (getElementByID('id'))			:trả về 1 phần tử
+						:class (getElementsByClassName('classname') 	:trả về 1 chuỗi phần tử (html collection)
+						:tag	(getElementsByTagName)('tagname')	:trả về 1 chuổi phần từ 
+						:CSS selector (querySelector('.classname')	"trả về 1 phần tử
+								(querySelectorAll(.classname 	:trả về 1 chuỗi phần tử
+,HTML collection
+-attribute (các thuộc tính của thẻ)
+-text (Nội dung văn bản của thẻ)
+
+document 		:đại diện cho toàn bộ file html
+	.write		:Ghi dữ lieu vào DOM (Cuối phần body);
