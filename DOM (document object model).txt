@@ -6,8 +6,22 @@ DOM (document object model)
 						:CSS selector (querySelector('.classname')	"trả về 1 phần tử
 								(querySelectorAll(.classname 	:trả về 1 chuỗi phần tử
 ,HTML collection
+
 -attribute (các thuộc tính của thẻ)
--text (Nội dung văn bản của thẻ)
+						:element.<tên attribute>     (nếu nó là 1 thuộc tính đã được định nghĩa
+						:element.setAtttribute('<attributename>'.'attribute value>)		(định nghĩa 1 Attribute cho element)
+						:element.getAttribute('attributename')					(Lấy giá trị của attribute )
+	 
+-text (Nội dung văn bản của thẻ)	
+						:element.innerText 		(trả về text của element (nhìn thấy trên trình duyệt)
+						:element.textContent		(trả về text của element (bao gồm tất cả khoảng  trắng g,nội dung (trừ các <tag>)
 
 document 		:đại diện cho toàn bộ file html
 	.write		:Ghi dữ lieu vào DOM (Cuối phần body);
+
+
+
+-innerHTML 					:element.innerHTML 		(ghi đè html vào trong 1 element)			--get -- lấy tất cả phần tử bên trong element
+																	--set -- ghi đè phần tử bên trong
+-outerHTML 					:element.outerHTML 		(ghi đè vào bên ngoài element(bao gồm cả element)  --- get -- lấy tất cả phần tử bên trong bao gồm cả element
+																	--set-- ghi đè tất cả phần tử bên trong bao gồm cả element
