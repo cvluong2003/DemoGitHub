@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuan13", "Tuan13\Tuan13.csproj", "{6B5CC484-27F3-4C99-AEEF-6E9C05230197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{68522536-59AE-4735-98A2-9DE060F9646A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO2\DTO.csproj", "{5E618041-4C1D-440B-99C7-021EA331BBCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B5CC484-27F3-4C99-AEEF-6E9C05230197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B5CC484-27F3-4C99-AEEF-6E9C05230197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B5CC484-27F3-4C99-AEEF-6E9C05230197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B5CC484-27F3-4C99-AEEF-6E9C05230197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68522536-59AE-4735-98A2-9DE060F9646A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68522536-59AE-4735-98A2-9DE060F9646A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68522536-59AE-4735-98A2-9DE060F9646A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68522536-59AE-4735-98A2-9DE060F9646A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E618041-4C1D-440B-99C7-021EA331BBCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E618041-4C1D-440B-99C7-021EA331BBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E618041-4C1D-440B-99C7-021EA331BBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E618041-4C1D-440B-99C7-021EA331BBCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
